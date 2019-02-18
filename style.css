@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body {
+    overflow-x: hidden;
+}
+
+/* Background */
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("img/attorney1.png");
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-image: url("img/overlay.png");
+}
+
+/* Text in the Header Section */
+.header-text {
+    color: #3f4f61;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 20px;
+    background: linear-gradient(270deg, #405062 0%, #364554 50%, #47576b 100%);
+}
+
+.nav-item {
+    padding-right: .7rem;
+    padding-left: .7rem;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+    padding-top: 13px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    font-weight: 700;
+    color: #f4c582;
+}
+
+.divider {
+    width: 3px;
+    height: 60px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 0px;
+}
+
+/* Consultation Section */
+.consultation-pos {
+    margin-top: 700px;
+}
+
+.consultation-text { 
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.consultation-bg {
+    background-image: linear-gradient(180deg, #405062 0%, #364554 50%, #47576b 100%);
+    border-radius: 5px 5px 0 0;
+    height: 110px;
+}
+
+.consultation-button {
+    background-image: linear-gradient(270deg, #c79f66 0%, #ecd39a 50%, #c79f66 100%);
+    border-radius: 25px;
+    height: 50px;
+    width: 240px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+/* Menu */
+.menu-bg {
+    background-image: url("img/books.png"), linear-gradient(270deg, rgba(64, 80, 98, 0.95) 0%, rgba(54, 69, 84, 0.95) 50%, rgba(71, 87, 107, 0.95) 100%), linear-gradient(270deg, rgba(64, 80, 98, 0.95) 0%, rgba(54, 69, 84, 0.95) 50%, rgba(71, 87, 107, 0.95) 100%);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+    height: 110px;
+    background-size:cover;
+}
+
+.menu-text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.divider-big {
+    width: 3px;
+    height: 110px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 0px;
+}
+
+.button-text {
+    color: #614821;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Main */
+.main-text {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-heading {
+    color: #303030;
+    font-family: "PT Serif";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-heading-big {
+    color: #303030;
+    font-family: "PT Serif";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.main-button {
+    background-image: linear-gradient(270deg, #c79f66 0%, #ecd39a 50%, #c79f66 100%);
+    border-radius: 25px;
+    height: 40px;
+    width: 222px;
+}
+
+.smalltext {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+
+.smalltext-bg {
+    width: 215px;
+    height: 102px;
+    border-radius: 5px;
+    background-color: #3f4f61;
+}
+
+/* What We Do For You Boxes*/
+.box-text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.box-heading {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.insurance-box {
+    width: 246px;
+    height: 246px;
+    background-image: url("img/img-Insurance.png");
+}
+
+.medical-records-box {
+    width: 246px;
+    height: 246px;
+    background-image: url("img/img-medical-records.png");
+}
+
+.progress-box {
+    width: 246px;
+    height: 246px;
+    background-image: url("img/img-progress.png");
+}
+
+.medical-care-box {
+    width: 246px;
+    height: 246px;
+    background-image: url("img/img-medical-care.png");
+}
+
+/* Misc */
+.white-bg {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 5px 5px;
+    background-color: #ffffff;
+}
+
+.bar {
+    height: 15px;
+    background-image: linear-gradient(270deg, #c79f66 0%, #ecd39a 50%, #c79f66 100%);
+}
+
+.bar-curved {
+    height: 10px;
+    border-radius: 5px 5px 0 0;
+    background-image: linear-gradient(270deg, #c79f66 0%, #ecd39a 50%, #c79f66 100%);
+}
+
+.bar-small {
+    width: 150px;
+    height: 3px;
+    background-image: linear-gradient(270deg, #c79f66 0%, #ecd39a 50%, #c79f66 100%);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%
+  }
